@@ -1,23 +1,24 @@
 import React from 'react';
 import TestBox from './TestBox';
 import truck from '../public/aron-yigin-sNY6B9NsPP8-unsplash.jpg';
+import product from "../public/christopher-paul-high-O8dcG8oniJU-unsplash.jpg";
 
 const data = [
     {
         name: "vegetable",
-        img: truck,
+        img: product,
     },
     {
         name: "vegetable",
-        img: truck,
+        img: product,
     },
     {
         name: "vegetable",
-        img: truck,
+        img: product,
     },
     {
         name: "vegetable",
-        img: truck,
+        img: product,
     }
 ]
 

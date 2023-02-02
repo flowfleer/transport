@@ -6,8 +6,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      colors: {
+        'primary': '#FFFFFF',
+        'primary-dark': '#23D997',
+      },
     },
+    fontFamily: {
+      sans: ['Inter', 'sans-serif']
+    }
   },
   plugins: [],
 }

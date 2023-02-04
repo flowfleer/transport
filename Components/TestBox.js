@@ -9,6 +9,7 @@ const TestBox = ({name,img}) => {
                     <Image alt="content" class="object-cover object-center h-full w-full" src={img} />
                 </div>
                 <h2 className="title-font text-xl font-light text-primary mt-2 mb-3">{name}</h2>
+                <h2>aa</h2>
             </div>
         </>
     );

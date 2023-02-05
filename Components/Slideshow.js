@@ -17,7 +17,7 @@ const Slideshow = () => {
   //These are custom properties for zoom effect while slide-show
   const zoomInProperties = {
     indicators: true,
-    scale: 1.2,
+    // scale: 1.2,
     duration: 2000,
     transitionDuration: 500,
     infinite: true,
@@ -49,9 +49,9 @@ const Slideshow = () => {
     <div className="m-6">
       <Zoom {...zoomInProperties}>
         {images.map((each, index) => (
-          <div key={index} className=" flex items-center justify-center w-full h-full">
-            <Image width={1400} height={1400} className="md:w-10/12 md:h-[600px] object-cover bg-top rounded-lg shadow-xl" src={each}/>
-          <p className="fixed md:text-7xl font-extrabold">ADVAITH INTERNATIONAL</p>
+          <div key={index} className="flex items-center justify-center lg:mt-14">
+            <Image width={1400} height={1400} className="lg:w-10/12 lg:h-[500px] w-full h-screen object-cover bg-top rounded-lg shadow-xl" src={each}/>
+          <p className="fixed md:text-7xl text-4xl font-extrabold ml-4">AKSHAR INTERNATIONAL</p>
           </div>
         ))}
       </Zoom>

@@ -1,5 +1,6 @@
 import Footer from '../Components/Footer'
 import Info from '../Components/Info'
+import Layout from '../Components/Layout'
 import '../styles/globals.css'
 
 function MyApp() {
@@ -10,8 +11,9 @@ function MyApp() {
   }
   return (
     <>
-      <Info image='Who we are.jpg' title='WHO WE ARE' des={obj.first_p}/>
-      <Info image='message.jpg' title='MESSAGE FOR YOU' des={obj.second_p}/>
+      <Layout />
+      {/* <Info image='Who we are.jpg' title='WHO WE ARE' des={obj.first_p}/> */}
+      {/* <Info image='message.jpg' title='MESSAGE FOR YOU' des={obj.second_p}/> */}
       <Footer/>
     </>
   )

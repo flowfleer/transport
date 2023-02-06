@@ -71,7 +71,7 @@ const Slideshow = () => {
         {content.map((each, index) => (
           <div key={index} className=" flex items-center justify-center lg:mt-14">
             <Image width={1400} height={1400} className="lg:w-10/12 lg:h-[500px] w-full h-screen object-cover bg-top rounded-lg shadow-xl" src={each.image}/>
-            <p className="absolute md:text-7xl text-4xl font-extrabold ml-4 text-white">{each.title}</p>
+            <p className="absolute md:text-5xl text-4xl font-bold ml-4 text-white">{each.title}</p>
             <p className="absolute mt-32 md:text-3xl text-4xl font-extrabold ml-4 text-white">{each.description}</p>
 
           </div>

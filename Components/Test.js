@@ -52,7 +52,7 @@ const Test = () => {
         <div>
             {/* <Container> */}
             <div className='flex flex-col items-center justify-center'>
-            <h1 class="sm:text-5xl text-center text-2xl font-medium title-font text-primary">Products</h1>
+            <h1 className="sm:text-5xl text-center text-2xl font-medium title-font text-primary">Products</h1>
             <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>
             </div>
                 <div className="md:flex justify-center  md:flex-wrap md:-ml-12 ">

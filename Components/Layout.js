@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from './Container';
 import Footer from './Footer';
 import Info from './Info';
 import Information from './Information';
@@ -12,9 +13,9 @@ const Layout = () => {
             <NavBar />
             <Carousel />
             <Test />
+            <Container/>
             <Information />
-            {/* <Info /> */}
-            {/* <Footer /> */}
+            <Footer/>
         </div>
     );
 };

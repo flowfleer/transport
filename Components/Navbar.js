@@ -6,7 +6,6 @@ export default function NavBar() {
     return (
         <nav className="w-full bg-[#CAE4FF] shadow">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-                <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
                             <h2 className="text-2xl font-bold text-black">AKSHAR INTERNATIONAL</h2>
@@ -48,7 +47,6 @@ export default function NavBar() {
                             </button>
                         </div>
                     </div>
-                </div>
                 <div>
                     <div
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"

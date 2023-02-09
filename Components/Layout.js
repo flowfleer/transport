@@ -6,6 +6,7 @@ import Information from './Information';
 import NavBar from './Navbar';
 import Carousel from './Slideshow';
 import Test from './Test';
+import Choose from './Choose';
 
 const Layout = () => {
     return (
@@ -14,8 +15,10 @@ const Layout = () => {
             <Carousel />
             <Test />
             <Container/>
+            <Choose/>
             <Information />
             <Footer/>
+
         </div>
     );
 };

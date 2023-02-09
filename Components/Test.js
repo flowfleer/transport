@@ -1,32 +1,36 @@
 import React from 'react';
 import TestBox from './TestBox';
-import truck from '../public/aron-yigin-sNY6B9NsPP8-unsplash.jpg';
+// import truck from '../public/aron-yigin-sNY6B9NsPP8-unsplash.jpg';
 import product from "../public/christopher-paul-high-O8dcG8oniJU-unsplash.jpg";
+import wheatFlour from "../public/Wheat-flour.jpeg"
+import peanut from "../public/peanut.jpeg"
+import spices from "../public/spices.jpeg"
+import eco from "../public/eco-friendly.jpeg"
 
 const data = [
     {
-        title: "Tomato",
+        title: "Wheat flour",
         desc: "An App in which user can login and then share thoughts.",
-        img: product,
+        img: wheatFlour,
         link: "https://firebase-twitt-post.vercel.app/auth/Login",
     },
 
     {
-        title: "Tomato",
+        title: "Peanut and Pulses",
         desc: "Dhinga Masti is the app where kids play various game",
-        img: product,
+        img: peanut,
         link: "https://dhinga-masti.netlify.app/",
     },
     {
-        title: "Tomato",
+        title: "Indian spices",
         desc: "An FullStack dashboard where admin have database and allow user to login.",
-        img: product,
+        img: spices,
         link: "https://fullstack-dashboard.vercel.app/login",
     },
     {
-        title: "Tomato",
+        title: "Eco friendly products",
         desc: "Black codes is the Website where various javascript projects ideas are there and codes are also available",
-        img: product,
+        img: eco,
         link: "https://blackcodes.ml/",
     },
 

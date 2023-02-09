@@ -4,7 +4,7 @@ const Container = () => {
   return (
     <>
       <div className="ml-[2px] sm:ml-0 bg-[url('../public/con-bg-3.jpg')] bg-fixed bg-center bg-cover relative isolate after:content-[''] after:absolute after:bg-black after:inset-0 after:-z-[1] after:opacity-60" >
-        <p className="text-primary text-center w-full font-medium  text-2xl xl:text-3xl md:py-3 lg:py-5 xl:py-8">What We Do</p>
+        <h1 className="text-primary text-center w-full font-medium  text-2xl sm:text-5xl py-5 xl:py-8">What We Do</h1>
         <div className=" text-white flex flex-col mx-5 mt-2 md:grid md:grid-cols-2 md:gap-y-5 md:mt-5 lg:gap-y-7 xl:gap-y-8">
           <div className="xl:flex mt-2 md:flex">
             <div className="flex justify-center items-center">       

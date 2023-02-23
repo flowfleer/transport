@@ -1,4 +1,7 @@
 import { useState } from "react";
+// import Image from 'next/image';
+// import logo from '../public/logo.png'
+
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
@@ -8,6 +11,7 @@ export default function NavBar() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
+                            {/* <Image alt="logo" src={logo} className="w-[10%]"/> */}
                             <h2 className="text-2xl font-bold text-black">AKSHAR INTERNATIONAL</h2>
                         </a>
                         <div className="md:hidden">
@@ -57,7 +61,7 @@ export default function NavBar() {
                                 <a href="javascript:void(0)">Home</a>
                             </li>
                             <li className="text-black font-extrabold bg-[#CAE4FF] p-2 rounded-lg hover:text-blue-600">
-                                <a href="javascript:void(0)">Blog</a>
+                                <a href="javascript:void(0)">Products</a>
                             </li>
                             <li className="text-black font-extrabold bg-[#CAE4FF] p-2 rounded-lg hover:text-blue-600">
                                 <a href="javascript:void(0)">About US</a>

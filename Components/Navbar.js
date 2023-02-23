@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from 'next/image';
-import logo from '../public/logo.png';
+import logo from '../public/logo.jpg';
 
 
 export default function NavBar() {

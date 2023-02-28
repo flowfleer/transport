@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
 
 const TestBox = ({ title, desc, img, link }) => {
     return (
@@ -14,7 +14,6 @@ const TestBox = ({ title, desc, img, link }) => {
                                     <h1 className="title-font md:text-2xl text-xl font-medium text-white mb-1">{title}</h1>
                                     <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>
                                     <p className="leading-relaxed md:text-lg lg:mt-4 mb-3 text-white">{desc}</p>
-        
                                 </div>
                             </div>
                         </div>

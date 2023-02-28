@@ -19,17 +19,17 @@ const Slideshow = () => {
   const content = [
     {
       title: "AKSHAR INTERNATIONAL",
-      description: "CNC Machine Conveyor, Conveyor Chain",
+      description: "Welcome to Aksharinternational",
       image: truck1
     },
     {
       title: "AKSHAR INTERNATIONAL",
-      description: "CNC/VMC Machine Conveyor",
+      description: "Welcome to world of import export",
       image: truck2
     },
     {
       title: "AKSHAR INTERNATIONAL",
-      description: "•Chip Conveyor •Slat Conveyour ",
+      description: "We provide premium quality products",
       image: truck3
     },
   ];

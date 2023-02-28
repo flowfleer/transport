@@ -5,7 +5,7 @@ import msg from "/public/new-message-concept-landing-page_52683-26980-removebg-p
 
 const Information = () => {
     return (
-        <section className="text-gray-600 body-font p-6 mt-7">
+        <section id="about" className="text-gray-600 body-font p-6 mt-7">
             <div className="container rounded-2xl mx-auto  lg:w-3/4 flex px-5 py-8 bg-[#CAE4FF] md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-1/4 md:w-1/2 w-5/6 mb-10 md:mb-0">
                     <Image className="object-cover object-center rounded" alt="hero" src={meet} />

@@ -69,14 +69,14 @@ const Test = () => {
     return (
         <div>
             <div className='flex flex-col items-center justify-center'>
-            <h1 className="sm:text-5xl text-center text-2xl font-medium title-font text-primary">Products</h1>
-            <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>
+                <h1 className="sm:text-5xl text-center text-2xl font-medium title-font text-primary">Products</h1>
+                <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>
             </div>
-                <div className="md:flex justify-center  md:flex-wrap md:-ml-12 ">
-                    {data.map((data, index) => (
-                        <TestBox title={data.title} key={index} desc={data.desc} img={data.img} link={data.link} />
-                    ))}
-                </div>
+            <div className="md:flex justify-center  md:flex-wrap md:-ml-12 ">
+                {data.map((data, index) => (
+                    <TestBox title={data.title} key={index} desc={data.desc} img={data.img} link={data.link} />
+                ))}
+            </div>
         </div>
     );
 };

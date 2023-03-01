@@ -8,11 +8,23 @@ import eco from "../public/eco-friendly.jpg";
 import mix from "../public/premix-tea.jpeg";
 import grocery from "../public/grocery.jpg";
 import wheat from "../public/wheat.jpg";
+import ReadMoreReact from 'read-more-react';
 
+
+const yourTextHere = `ekfnefemfemfe efedf ekfnefemfemfe 
+                    ekfnefemfemfeekfne esdn widn
+                    wlmdwdwpdkwdkwpdkwpd wldmkw wldmkwd
+                    wdowmwd wldmwld wldmwdl wldmwdmdwpd.
+                    dgmd epdfgkeg ek;dnge ekfnef efn.`;
 const data = [
     {
         title: "Fruits and vegetables",
-        desc: "We are offering fresh, hygienic, and quality fruits and vegetables. India is popularly known as 'the fruit basket of the world.' We trade significantly in fruits and vegetables such as pomegranates, grapes, mangoes,coconuts, green chilli, carrots, drumsticks, green peas, lemon, okra, red onions, tomatoes, and so on. People who eat more fruits and vegetables as part of an overall healthy diet are likely to have a reduced risk of some chronic diseases.",
+        desc: <ReadMoreReact text={yourTextHere}
+            min={90}
+            // ideal={50}
+            // max={50}
+            // width={10}
+            readMoreText="read more" />,
         img: fv,
         link: "https://firebase-twitt-post.vercel.app/auth/Login",
     },
@@ -66,8 +78,12 @@ const data = [
 ];
 
 const Test = () => {
+
     return (
         <div>
+            
+            
+
             <div id="products" className='flex flex-col items-center justify-center'>
                 <h1 className="sm:text-5xl text-center text-2xl font-medium title-font text-primary">Products</h1>
                 <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>

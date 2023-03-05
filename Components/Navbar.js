@@ -10,8 +10,8 @@ export default function NavBar() {
         <nav className="w-full bg-[#CAE4FF] shadow">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="javascript:void(0)" className="flex">
-                            <Image alt="logo" src={logo} className="w-[20%] sm:w-[10%] lg:w-[5%] rounded-[50%] mr-4"/>
+                        <a href="#home" className="flex">
+                            <Image alt="logo" src={logo} className="w-[10%] sm:w-[10%] lg:w-[8%] rounded-[50%] mr-4"/>
                             <h2 className="text-xl font-bold text-black flex justify-center items-center">AKSHAR INTERNATIONAL</h2>
                         </a>
                         <div className="md:hidden">
@@ -53,12 +53,12 @@ export default function NavBar() {
                     </div>
                 <div>
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 w-full ${navbar ? "block" : "hidden"
                             }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-black font-extrabold bg-[#CAE4FF] p-2 rounded-lg hover:text-blue-600">
-                                <a href="javascript:void(0)">Home</a>
+                                <a href="#home">Home</a>
                             </li>
                             <li className="text-black font-extrabold bg-[#CAE4FF] p-2 rounded-lg hover:text-blue-600">
                                 <a href="#products">Products</a>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from './Container';
 import Footer from './Footer';
-import Info from './Info';
 import Information from './Information';
 import NavBar from './Navbar';
 import Carousel from './Slideshow';
@@ -18,7 +17,6 @@ const Layout = () => {
             <Choose/>
             <Information />
             <Footer/>
-
         </div>
     );
 };

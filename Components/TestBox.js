@@ -25,7 +25,7 @@ const TestBox = ({ title, desc, img, readMore }) => {
                                                             Close Description
                                                         </button>
                                                     </div>
-                                                </div>
+                                                </div>          
                                             )
                                         }
                                     </Popup>

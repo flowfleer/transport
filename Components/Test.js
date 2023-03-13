@@ -16,7 +16,7 @@ const data = [
         desc: `We offer fresh, hygienic, and high-quality fruits and vegetables....`,
         img: fv,
         readMore: `We offer fresh, hygienic, and high-quality fruits and vegetables. 
-        India is widely known as "the fruit basket of the world." 
+        India is widely known as "the fruit basket of the world.
         We trade significantly in fruits and vegetables such as pomegranates, grapes, mangoes, coconuts, green chilies, carrots, drumsticks, green peas, lemons, okra, red onions, tomatoes, and more. 
         People who eat more fruits and vegetables as part of an overall healthy diet are likely to have a reduced risk of some chronic diseases.`,
     },

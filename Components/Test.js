@@ -1,13 +1,13 @@
 import React from 'react';
 import TestBox from './TestBox';
 import fv from '../public/fruits&vegetable.jpg';
-import sp from "../public/indianSpices.jpg";
-import dvf from "../public/Dehydrated Fruits and Vegetables.jpg";
-import eat from "../public/Ready.jpg";
+import sp from "../public/indianSpices.jpeg";
+import dvf from "../public/Dehydrated Fruits and Vegetables.jpeg";
+import eat from "../public/Ready.jpeg";
 import eco from "../public/eco-friendly.jpg";
 import mix from "../public/premix-tea.jpeg";
 import grocery from "../public/grocery.jpg";
-import wheat from "../public/wheat.jpg";
+import wheat from "../public/wheat.jpeg";
 
 
 const data = [

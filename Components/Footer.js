@@ -15,7 +15,7 @@ const Footer = () => {
         {/* bg-neutral-200 p-6 text-center dark:bg-neutral-700  */}
         <div className="bg-primary text-center p-5"> 
             <span className='text-black'>© 2023 Copyright : </span>
-            <a class="font-semibold text-black">Akshar International</a>
+            <a className="font-semibold text-black">Akshar International</a>
         </div>
         {/* font-semibold text-neutral-800 dark:text-neutral-400 */}
     </>

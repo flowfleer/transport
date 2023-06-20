@@ -76,10 +76,9 @@ const Slideshow = () => {
       <Zoom {...zoomInProperties}>
         {content.map((each, index) => (
           <div key={index} className=" flex items-center justify-center lg:mt-14">
-            <Image width={1400} height={1400} className="lg:w-10/12 lg:h-[500px] opacity-60 w-full h-screen object-cover bg-top rounded-lg shadow-xl" src={each.image} alt="slider images"/>
+            <Image width={1400} height={1400} className="lg:w-10/12 lg:h-[500px] opacity-60 w-full h-screen object-cover bg-top rounded-lg shadow-xl" src={each.image} alt="slider images" loading="lazy"/>
             <p className="absolute md:text-7xl text-4xl ml-4 text-white">{each.title}</p>
             <p className="absolute mt-44 md:text-3xl text-xl ml-4 text-white">{each.description}</p>
-
           </div>
         ))}
       </Zoom>

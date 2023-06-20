@@ -8,7 +8,7 @@ const Information = () => {
         <section id="about" className="text-gray-600 body-font p-6 mt-7">
             <div className="container rounded-2xl mx-auto  lg:w-3/4 flex px-5 py-8 bg-[#CAE4FF] md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-1/4 md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <Image className="object-cover object-center rounded" alt="hero" src={meet} />
+                    <Image className="object-cover object-center rounded" alt="hero" src={meet} loading="lazy"/>
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-16 flex flex-col md:items-start md:justify-center md:text-left items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ABOUT US</h1>
@@ -20,7 +20,7 @@ const Information = () => {
             </div>
              <div className="lg:mt-6 mt-6 container rounded-2xl  mx-auto lg:w-3/4 flex px-5 py-15 bg-[#CAE4FF] md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-1/4 md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <Image className="object-cover object-center rounded" alt="hero" src={msg} />
+                    <Image className="object-cover object-center rounded" alt="hero" src={msg} loading="lazy"/>
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-16 flex flex-col md:items-start md:justify-center md:text-left items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">MESSAGE FOR YOU</h1>

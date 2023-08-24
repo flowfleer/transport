@@ -36,7 +36,7 @@ const Layout = () => {
                 <meta name="language" content="English" />
                 <meta name="revisit-after" content="15 days" />
                 <meta name="author" content="Jaimin" />
-
+                <link rel="icon" href="./Favicon.ico"/>
             </Head>
         <div>
             <NavBar />

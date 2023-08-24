@@ -10,6 +10,9 @@ module.exports = {
         'primary': '#CAE4FF',
         'primary-dark': '#23D997',
       },
+      backgroundImage: {
+        factoryImg: "url(/public/con-bg-3.jpeg)",
+      },
     },
     fontFamily: {
       sans: ['Inter', 'sans-serif']

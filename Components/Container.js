@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Container = () => {
@@ -8,7 +9,7 @@ const Container = () => {
         <div className=" text-white flex flex-col mx-5 mt-2 md:grid md:grid-cols-2 md:gap-y-5 md:mt-5 lg:gap-y-7 xl:gap-y-8">
           <div className="xl:flex mt-2 md:flex">
             <div className="flex justify-center items-center">       
-                <img src="export-bg.png" alt="export" className="w-[35%] md:w-4/5"/>
+                <Image src="export-bg.png" alt="export" className="w-[35%] md:w-4/5"/>
             </div>
             <div>
               <p className="xl:text-2xl text-center text-xl text-primary font-medium">Export</p>
@@ -20,7 +21,7 @@ const Container = () => {
           </div>
           <div className="xl:flex mt-2 md:flex">
             <div className="flex justify-center items-center">
-                <img src="import-bg.png" alt="import" className="w-[35%] md:w-4/5"/>
+                <Image src="import-bg.png" alt="import" className="w-[35%] md:w-4/5"/>
             </div>
             <div>
               <p className="xl:text-2xl text-center text-xl text-primary font-medium">Import</p>
@@ -32,7 +33,7 @@ const Container = () => {
           </div>
           <div className=" mt-2 md:flex md:col-span-2 ">
             {/* <div className="flex justify-center items-center md:justify-start"> */}
-                <img src="agent-bg.png" alt="agent" className="w-[35%] md:w-[20%] mx-auto xl:w-[15%]"/>
+                <Image src="agent-bg.png" alt="agent" className="w-[35%] md:w-[20%] mx-auto xl:w-[15%]"/>
             {/* </div> */}
             <div className="md:p-5 lg:p-10">
               <p className="xl:text-2xl text-center md:text-start  text-xl text-primary font-medium">Sourcing Agent</p>

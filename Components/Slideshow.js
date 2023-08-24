@@ -3,9 +3,10 @@ import React from "react";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import Image from 'next/image';
-import truck1 from '../public/pic/WhatsApp Image truck1.jpeg'
-import truck2 from '../public/pic/WhatsApp Image truck2.jpeg'
-import truck3 from '../public/pic/WhatsApp Image truck3.jpeg'
+import s1 from '../public/s1_welcome.jpeg'
+import s2 from '../public/s2_akshar.jpg'
+import s3 from '../public/s3_quality.jpeg'
+import s4 from '../public/s4_fast.jpeg'
 
 const Slideshow = () => {
   //Array of Images
@@ -19,18 +20,23 @@ const Slideshow = () => {
   const content = [
     {
       title: "AKSHAR INTERNATIONAL",
-      description: "Welcome to Aksharinternational",
-      image: truck1
+      description: "Welcome to world of import export",
+      image: s1
     },
     {
       title: "AKSHAR INTERNATIONAL",
-      description: "Welcome to world of import export",
-      image: truck2
+      description: "Welcome to Aksharinternational",
+      image: s2
     },
     {
       title: "AKSHAR INTERNATIONAL",
       description: "We provide premium quality products",
-      image: truck3
+      image: s3
+    },
+    {
+      title: "AKSHAR INTERNATIONAL",
+      description: "We provide reliable and fast delivery",
+      image: s4
     },
   ];
 
@@ -70,10 +76,9 @@ const Slideshow = () => {
       <Zoom {...zoomInProperties}>
         {content.map((each, index) => (
           <div key={index} className=" flex items-center justify-center lg:mt-14">
-            <Image width={1400} height={1400} className="lg:w-10/12 lg:h-[500px] opacity-60 w-full h-screen object-cover bg-top rounded-lg shadow-xl" src={each.image} alt="slider images"/>
+            <Image width={1400} height={1400} className="lg:w-10/12 lg:h-[500px] opacity-60 w-full h-screen object-cover bg-top rounded-lg shadow-xl" src={each.image} alt="slider images" loading="lazy"/>
             <p className="absolute md:text-7xl text-4xl ml-4 text-white">{each.title}</p>
             <p className="absolute mt-44 md:text-3xl text-xl ml-4 text-white">{each.description}</p>
-
           </div>
         ))}
       </Zoom>

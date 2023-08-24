@@ -45,14 +45,7 @@ const Layout = () => {
             <Container/>
             <Choose/>
             <Information />
-                <Footer />
-                <div class="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-                    <span>© 2023 Copyright : </span>
-                    <a
-                        class="font-semibold text-neutral-800 dark:text-neutral-400"
-                    >Akshar International</a
-                    >
-                </div>
+            <Footer />           
         </div>
         </>
     );

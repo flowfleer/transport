@@ -1,13 +1,13 @@
 import React from 'react';
 import TestBox from './TestBox';
 import fv from '../public/fruits&vegetable.jpg';
-import sp from "../public/indianSpices.jpg";
-import dvf from "../public/Dehydrated Fruits and Vegetables.jpg";
-import eat from "../public/Ready.jpg";
+import sp from "../public/indianSpices.jpeg";
+import dvf from "../public/Dehydrated Fruits and Vegetables.jpeg";
+import eat from "../public/Ready.jpeg";
 import eco from "../public/eco-friendly.jpg";
 import mix from "../public/premix-tea.jpeg";
 import grocery from "../public/grocery.jpg";
-import wheat from "../public/wheat.jpg";
+import wheat from "../public/wheat.jpeg";
 
 
 const data = [
@@ -33,14 +33,14 @@ const data = [
     },
     {
         title: "Ready to eat",
-        desc: `"Ready-to-eat" is a delicious product that can be prepared in a very short time without the hassle of cooking, and without compromising on health.`,
+        desc: `"Ready-to-eat" is a delicious product that can be prepared in a very short time without the hassle of cooking....`,
         img: eat,
         readMore: `"Ready-to-eat" is a delicious product that can be prepared in a very short time without the hassle of cooking, and without compromising on health.
         We supply the finest quality "Ready-to-Eat" food products, including Khaman dhokla, masala khichdi, Gujarati dal bhat, mixed vegetables, pav bhaji, paneer butter masala, and Amritsari chhole, according to client requirements.`,
     },
     {
         title: "Dehydrated vegetables",
-        desc: "Dehydrated Vegetables are vegetables from which the moisture content has been removed...",
+        desc: "Dehydrated Vegetables are vegetables from which the moisture content has been removed....",
         img: dvf,
         readMore: `"Dehydrated Vegetables are vegetables from which the moisture content has been removed. The water content is removed from these vegetables by special drying methods. Sun drying is one of the oldest methods used for dehydration. Dehydrated Vegetables are used in instant noodles, soups, snacks, fast food, and other such products. These vegetables retain most of their nutritional content in the dehydrated state. Therefore, dehydrated vegetables from India are now exported all around the globe."`,
     },
@@ -48,7 +48,7 @@ const data = [
 
     {
         title: "Eco friendly products",
-        desc: "Choose eco-friendly products and make a positive impact on the environment...",
+        desc: "Choose eco-friendly products and make a positive impact on the environment....",
         img: eco,
         readMore: `"Choose eco-friendly products and make a positive impact on the environment while enjoying high-quality and sustainable solutions for your everyday needs.
         We supply the finest quality eco-friendly products, such as bamboo products, areca leaf products, sal leaf products, clay products, banana leaf plates, jute bags, and other similar items."`,
@@ -70,12 +70,15 @@ const data = [
     },
     {
         title: "Wheat Grain and Flours",
-        desc: "Wheat grain has three parts: endosperm, bran and grem....",
+        desc: `We deal with:
+        1)Wheat Grain
+        2)Wheat flour
+        3)Maida flour....`,
         img: wheat,
-        readMore: `We deal with:
+        readMore: `We deal with:        
         Wheat grain: Wheat grain has three parts: endosperm (mostly starch and protein), bran (fiber, vitamins, minerals), and germ (healthy fats, vitamins, minerals). Whole grain wheat products that include all three parts are nutritionally rich and beneficial for overall health.        
         Wheat flour: The flour obtained by milling the wheat grain, which can be further refined to produce different types of flour such as All-Purpose Flour, Bread Flour, Cake Flour, etc.        
-        Maida flour: Maida is a type of wheat flour that is highly refined and bleached, commonly used in Indian cuisine for making bread, pastries, and other baked goods."`,
+        Maida flour: Maida is a type of wheat flour that is highly refined and bleached, commonly used in Indian cuisine for making bread, pastries, and other baked goods.`,
     },
 
 ];

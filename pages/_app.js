@@ -6,6 +6,7 @@ function MyApp() {
   return (
     <>
       <Head>
+      <title>Akshar International</title>
       <meta
           name="export-import-service-provider-all-india"
           content="We are Exporting best quality product around the world, You need best product on time you are at right place Export import"

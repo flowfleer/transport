@@ -67,7 +67,7 @@ export default function NavBar() {
                                 <a href="#about">About US</a>
                             </li>
                             <li className="text-black font-extrabold bg-[#CAE4FF] p-2 rounded-lg hover:text-blue-600">
-                                <a href="#footer">Contact US</a>
+                                <a href="#footer">Contact USS</a>
                             </li>
                         </ul>
                     </div>

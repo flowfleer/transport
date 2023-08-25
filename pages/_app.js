@@ -33,7 +33,7 @@ function MyApp() {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="15 days" />
         <meta name="author" content="Jaimin" />
-        <link rel="icon" href="./Favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
       </Head>
       <Layout />
     </>

@@ -7,6 +7,10 @@ function MyApp() {
     <>
       <Head>
       <title>Akshar International</title>
+      <meta 
+          name='description'
+          content='Discover a wide variety of high-quality products for international import and export, including fresh fruits, vegetables, Indian spices, eco-friendly products, ready-to-eat meals, and more.' 
+      />
       <meta
           name="export-import-service-provider-all-india"
           content="We are Exporting best quality product around the world, You need best product on time you are at right place Export import"

@@ -4,9 +4,9 @@ const StickyNavbar = () => {
   return (
     <nav className="fixed left-0 bottom-0 z-10">
       <ul>
-      <li className='bg-[#db4a39] hover:scale-125 w-min'>
+      <li className='bg-[#db4a39] hover:scale-125 w-[30px]'>
           <a href="https://g.co/kgs/jeip69" className="text-white">
-            <i className="fab fa-google p-2"></i>
+            <i className="fab fa-google p-[7.38px]"></i>
           </a>
         </li>
         <li className='bg-[#2867B2] hover:scale-125 w-min'>

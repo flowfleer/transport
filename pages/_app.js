@@ -21,7 +21,7 @@ function MyApp() {
         />
         {/* open graph data */}
         <meta
-          property="og:title"
+          property="akshar international"
           content="AksharInternational - Import Export Service Provider"
         />
         <meta

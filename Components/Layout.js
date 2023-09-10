@@ -6,19 +6,21 @@ import NavBar from './Navbar';
 import Carousel from './Slideshow';
 import Test from './Test';
 import Choose from './Choose';
+import StickyNavbar from './StickyNavbar';
 
 const Layout = () => {
     return (
         <>
-        <div>
             <NavBar />
             <Carousel />
+        <div className="relative min-h-screen">
             <Test />
             <Container/>
             <Choose/>
             <Information />
-            <Footer />           
+            <StickyNavbar />
         </div>
+            <Footer />
         </>
     );
 };

@@ -29,8 +29,12 @@ function MyApp() {
           content="AksharInternational - Import Export Service Provider"
         />
         <meta
+          property="akshar internationals"
+          content="AksharInternationals - Import Export Service Provider"
+        />
+        <meta
           name="keywords"
-          content="Akshar International,akshar international import export service,import,export,import service,export service,"
+          content="Akshar International,Akshar Internationals,akshar international,akshar internationals import export service,import,export,import service,export service,"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

@@ -1,0 +1,4 @@
+User-agent: *
+allow: /
+Disallow: /cgi-bin/
+Sitemap: https://www.aksharinternationals.com/sitemap.xml

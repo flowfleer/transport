@@ -7,6 +7,7 @@ function MyApp() {
     <>
       <Head>
       <title>Akshar International</title>
+      <meta name="google-site-verification" content="fI2N7TIGSGLDKL8ng6xQlgud9Atdsynm4cFLpQ2ghIA" />
       <meta 
           name='description'
           content='Discover a wide variety of high-quality products for international import and export, including fresh fruits, vegetables, Indian spices, eco-friendly products, ready-to-eat meals, and more.' 

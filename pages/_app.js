@@ -43,6 +43,7 @@ function MyApp() {
         <meta name="revisit-after" content="15 days" />
         <meta name="author" content="Jaimin" />
         {/* <link rel="icon" href="./Favicon.ico"/> */}
+        <link rel="canonical" href="https://www.aksharinternationals.com/" />
         <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png"/>

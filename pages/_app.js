@@ -7,6 +7,7 @@ function MyApp() {
     <>
       <Head>
       <title>Akshar International</title>
+      <meta property='og:title' content='Akshar International'/>
       <meta name="google-site-verification" content="fI2N7TIGSGLDKL8ng6xQlgud9Atdsynm4cFLpQ2ghIA" />
       <meta 
           name='description'
@@ -42,7 +43,7 @@ function MyApp() {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="15 days" />
         <meta name="author" content="Jaimin" />
-        {/* <link rel="icon" href="./Favicon.ico"/> */}
+        <link rel="icon" href="./Favicon.ico"/>
         <link rel="canonical" href="https://www.aksharinternationals.com/" />
         <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
